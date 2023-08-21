@@ -137,10 +137,7 @@ class RegisterScreen extends StatelessWidget {
                             style: Theme.of(context).textTheme.displayMedium,
                           ),
                           TextButton(
-                              onPressed: () {
-                                context.go('/login');
-
-                              },
+                              onPressed: () => context.go('/login'),
                               child: Text(
                                 AuthWords.login,
                                 style: Theme.of(context).textTheme.displaySmall,

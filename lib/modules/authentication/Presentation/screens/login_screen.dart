@@ -103,9 +103,7 @@ class LoginScreen extends StatelessWidget {
                             style: Theme.of(context).textTheme.displayMedium,
                           ),
                           TextButton(
-                              onPressed: () {
-                                context.go('/register');
-                              },
+                              onPressed: () => context.go('/register'),
                               child: Text(
                                 AuthWords.register,
                                 style: Theme.of(context).textTheme.displaySmall,
